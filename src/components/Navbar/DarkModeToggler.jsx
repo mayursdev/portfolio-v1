@@ -1,22 +1,22 @@
-import React from "react";
+import React, { useContext } from "react";
+import { Theme } from "../../context/Theme";
+import Moon from "../svg/Moon";
+import Sun from "../svg/Sun";
 
 const DarkModeToggler = () => {
+  const { theme, toggleTheme } = useContext(Theme);
+
+  const toggleThemeHandler = () => {
+    toggleTheme(theme);
+  };
+
   return (
-    <button>
-      <svg
-        className="w-7 h-7"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={2}
-          d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
-        />
-      </svg>
+    <button onClick={toggleThemeHandler}>
+      {theme === "light" ? (
+        <Moon className="w-7 h-7" />
+      ) : (
+        <Sun className="w-7 h-7 stroke-slate-100" />
+      )}
     </button>
   );
 };
