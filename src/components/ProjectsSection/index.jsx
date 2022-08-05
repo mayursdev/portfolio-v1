@@ -1,4 +1,5 @@
 import React from "react";
+import SectionTitle from "../Utils/SectionTitle";
 import ProjectItem from "./ProjectItem";
 
 const projects = [
@@ -48,14 +49,10 @@ const projects = [
   },
 ];
 
-const ProjectSection = () => {
+const ProjectsSection = () => {
   return (
     <div className="p-4">
-      <h2 className="text-2xl font-bold dark:text-slate-100">
-        <span className="text-3xl pr-1">🗃️</span>
-        Projects
-      </h2>
-
+      <SectionTitle icon="🗃️" title="Projects" />
       <div className="mt-5 grid grid-cols-1 gap-5">
         {projects.map((project) => (
           <ProjectItem key={project.id} project={project} />
@@ -65,4 +62,4 @@ const ProjectSection = () => {
   );
 };
 
-export default ProjectSection;
+export default ProjectsSection;

@@ -2,6 +2,7 @@ import React from "react";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import ProjectsSection from "./components/ProjectsSection";
+import SkillsSection from "./components/SkillsSection";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
         <Navbar />
         <HeroSection />
         <ProjectsSection />
+        <SkillsSection />
       </div>
     </div>
   );
