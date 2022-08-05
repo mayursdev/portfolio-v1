@@ -26,7 +26,7 @@ const skills = [
   {
     id: 5,
     title: "REACT",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
   },
   {
     id: 6,
@@ -64,7 +64,7 @@ const SkillsSection = () => {
   return (
     <div className="p-4">
       <SectionTitle icon="🚀" title="Skills" />
-      <div className="mt-5 grid grid-cols-3 gap-6 sm:grid-cols-4 md:grid-cols-5">
+      <div className="mt-5 grid grid-cols-3 gap-6 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6">
         {skills.map((skill) => (
           <SkillItem key={skill.id} title={skill.title} logo={skill.logo} />
         ))}

@@ -6,18 +6,18 @@ import LinkedinLogo from "./svg/LinkedinLogo";
 const HeroSection = () => {
   return (
     <header className="p-4 text-slate-900 dark:text-slate-200">
-      <h1 className="text-3xl font-bold">
+      <h1 className="text-3xl font-bold lg:text-4xl">
         Hello<span className="text-4xl">👋</span>,<br /> i'm Mayur Saroj
       </h1>
-      <p className="mt-2">
+      <p className="mt-2 lg:text-[17px]">
         A developer who is passionate about building applications, adapts very
         quickly to emerging frameworks, languages and loves exploring new
         technologies to integrate them together for solving real world problems
       </p>
-      <div className="mt-4 flex flex-col gap-1 sm:flex-row sm:gap-3">
+      <div className="mt-4 flex flex-col gap-1 sm:flex-row sm:gap-3 lg:mt-5">
         <a className="flex gap-1" href="mailto:mayursdev@gmail.com">
           <Envelope className="dark:fill-slate-100" />
-          <span className="underline">mayursdev@gmail.com</span>
+          <span className="hover:underline">mayursdev@gmail.com</span>
         </a>
         <a
           className="flex gap-1"
@@ -26,7 +26,7 @@ const HeroSection = () => {
           rel="noreferrer"
         >
           <GithubLogo className="dark:fill-slate-100" />
-          <span className="underline">mayursdev</span>
+          <span className="hover:underline">mayursdev</span>
         </a>
         <a
           className="flex gap-1"
@@ -35,7 +35,7 @@ const HeroSection = () => {
           rel="noreferrer"
         >
           <LinkedinLogo className="dark:fill-slate-100" />
-          <span className="underline">mayursdev</span>
+          <span className="hover:underline">mayursdev</span>
         </a>
       </div>
     </header>
