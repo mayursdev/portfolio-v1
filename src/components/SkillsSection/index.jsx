@@ -64,7 +64,7 @@ const SkillsSection = () => {
   return (
     <div className="p-4">
       <SectionTitle icon="🚀" title="Skills" />
-      <div className="mt-5 grid grid-cols-3 gap-6">
+      <div className="mt-5 grid grid-cols-3 gap-6 sm:grid-cols-4">
         {skills.map((skill) => (
           <SkillItem key={skill.id} title={skill.title} logo={skill.logo} />
         ))}

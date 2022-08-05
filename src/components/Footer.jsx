@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="p-4 mt-3 text-center text-xs dark:text-slate-100">
       <p>
         Designed & developed with ❤️
-        <br /> by Mayur Saroj &copy; {new Date().getFullYear()}
+        <br className="sm:hidden" /> by Mayur Saroj &copy; {new Date().getFullYear()}
       </p>
     </footer>
   );

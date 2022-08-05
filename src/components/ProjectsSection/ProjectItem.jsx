@@ -3,7 +3,7 @@ import React from "react";
 const ProjectItem = ({ project }) => {
   return (
     <div className="flex flex-col border-light rounded dark:border-dark">
-      <div className="h-64">
+      <div className="h-64 sm:h-80">
         <img
           src={project.screenshot}
           alt={project.title}

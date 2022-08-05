@@ -14,7 +14,7 @@ const HeroSection = () => {
         quickly to emerging frameworks, languages and loves exploring new
         technologies to integrate them together for solving real world problems
       </p>
-      <div className="mt-4 flex flex-col gap-1">
+      <div className="mt-4 flex flex-col gap-1 sm:flex-row sm:gap-3">
         <a className="flex gap-1" href="mailto:mayursdev@gmail.com">
           <Envelope className="dark:fill-slate-100" />
           <span className="underline">mayursdev@gmail.com</span>
