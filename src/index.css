@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .border-light {
+    @apply border border-slate-300;
+  }
+  .border-light-b {
+    @apply border-b border-b-slate-300;
+  }
+
+  .border-dark {
+    @apply border border-slate-700;
+  }
+
+  .border-dark-b {
+    @apply border-b border-slate-700;
+  }
+}

@@ -2,12 +2,12 @@ import React from "react";
 
 const ProjectItem = ({ project }) => {
   return (
-    <div className="flex flex-col border rounded dark:border-slate-700">
+    <div className="flex flex-col border-light rounded dark:border-dark">
       <div className="h-64">
         <img
           src={project.screenshot}
           alt={project.title}
-          className="h-full w-full object-cover object-top border-b rounded-t dark:border-b-slate-700"
+          className="h-full w-full object-cover object-top border-light-b rounded-t dark:border-dark-b"
         />
       </div>
       <div className="p-4 pt-2 dark:text-slate-100">
@@ -21,7 +21,7 @@ const ProjectItem = ({ project }) => {
               href={project.livePreview}
               target="_blank"
               rel="noreferrer"
-              className="block border py-2.5 px-5 text-center font-semibold text-sm bg-blue-600 text-white hover:bg-blue-700 rounded transition-all dark:border-slate-700"
+              className="block border-light py-2.5 px-5 text-center font-semibold text-sm bg-blue-600 text-white hover:bg-blue-700 rounded transition-all dark:border-dark"
             >
               🔗 Live Preview
             </a>
@@ -31,7 +31,7 @@ const ProjectItem = ({ project }) => {
               href={project.sourceCode}
               target="_blank"
               rel="noreferrer"
-              className="block border py-2.5 px-5 text-center font-semibold text-sm rounded dark:border-slate-700"
+              className="block border-light py-2.5 px-5 text-center font-semibold text-sm rounded dark:border-dark"
             >
               ⚡ Source Code
             </a>
