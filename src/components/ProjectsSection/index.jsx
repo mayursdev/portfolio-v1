@@ -53,7 +53,7 @@ const ProjectsSection = () => {
   return (
     <div className="p-4">
       <SectionTitle icon="🗃️" title="Projects" />
-      <div className="mt-5 grid grid-cols-1 gap-5">
+      <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-2">
         {projects.map((project) => (
           <ProjectItem key={project.id} project={project} />
         ))}

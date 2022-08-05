@@ -5,7 +5,7 @@ import LinkedinLogo from "./svg/LinkedinLogo";
 
 const HeroSection = () => {
   return (
-    <header className="p-4 dark:text-slate-100">
+    <header className="p-4 text-slate-900 dark:text-slate-200">
       <h1 className="text-3xl font-bold">
         Hello<span className="text-4xl">👋</span>,<br /> i'm Mayur Saroj
       </h1>
