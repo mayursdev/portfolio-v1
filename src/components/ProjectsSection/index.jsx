@@ -34,7 +34,7 @@ const projects = [
     title: "Simple Social",
     description:
       "A complete social media clone with beautiful UI, has a unique feature of health reminder implemented which reminds users to take breaks at regular intervals.",
-    // livePreview: "",
+    livePreview: "http://simplesocial.rf.gd/",
     sourceCode: "https://github.com/mayursdev/simplesocial",
     screenshot: "/assets/images/simple-social-screenshot.png",
   },

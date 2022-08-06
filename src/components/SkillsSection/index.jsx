@@ -35,26 +35,31 @@ const skills = [
   },
   {
     id: 7,
+    title: "PYTHON",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+  },
+  {
+    id: 8,
     title: "PHP",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
   },
   {
-    id: 8,
+    id: 9,
     title: "NODEJS",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
   },
   {
-    id: 9,
+    id: 10,
     title: "SQL",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
   },
   {
-    id: 10,
+    id: 11,
     title: "FIREBASE",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
   },
   {
-    id: 11,
+    id: 12,
     title: "GIT & GITHUB",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
   },
